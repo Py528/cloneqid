@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <div className="h-screen bg-black">
+    <div className="h-screen bg-black w-screen">
       <nav className="border-gray-200 dark:bg-gray-900">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <div className=" flex flex-wrap items-center justify-between mx-auto p-4">
           <a
             href="https://flowbite.com/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -77,9 +77,10 @@ export default function Home() {
         />
 
         <div className="flex h-full justify-center items-center flex-col z-10">
-          <div className="text-6xl text-wrap text-white w-2/3 text-center mb-8">
-            every person deserves to know and be known by their true identity
-          </div>
+          <div className="text-xl sm:text-2xl md:text-4xl lg:text-6xl text-wrap text-white w-2/3 text-center mb-8">
+  Every person deserves to know and be known by their true identity
+</div>
+
 
           <Button variant="outline" className="rounded-full">
             Download qid

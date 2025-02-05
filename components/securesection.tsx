@@ -1,6 +1,7 @@
-"use client"
+"use client";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import Image from "next/image";
 
 const SecureSection = () => {
   return (
@@ -26,10 +27,12 @@ const SecureSection = () => {
 
         {/* Right Image */}
         <div className="flex justify-center z-10">
-          <img
+          <Image
             src="/images/image.png"
             alt="Illustration"
-            className="w-320"
+            width={320} // Specify the width
+            height={320} // Specify the height
+            priority // Load the image as a priority asset (optional)
           />
         </div>
       </div>

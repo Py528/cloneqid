@@ -33,6 +33,7 @@ const SecureSection = () => {
             width={320} // Specify the width
             height={320} // Specify the height
             priority // Load the image as a priority asset (optional)
+            layout="intrinsic"
           />
         </div>
       </div>
